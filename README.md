@@ -42,3 +42,14 @@ This stacked bar chart shows **Sales by Region**, with **color intensity** repre
 A filled map displays **Sum of Sales** and **Profit** by **Province** using geolocation.
 
 ![Geospatial Map](screenshots/geospatial-map.png)
+
+---
+
+## 🗃️ Files
+
+- `ergasia2_final.pbix`: Main Power BI report
+- `ergasia2_ok.pbix`, `bi_10_2_24.pbix`: Iterations / previous versions
+
+## 📁 Folder Structure
+
+
