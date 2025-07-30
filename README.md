@@ -1,48 +1,61 @@
-# 📊 Product-Region-Based-Sales-Analysis-in-Power-BI
+# Product-Region-Based-Sales-Analysis-in-Power-BI
 
-Power BI report for analyzing sales performance across product categories and regional groupings.  
-Includes dynamic filtering, hierarchies, and geospatial visualizations.
-
----
-
-## 🗺️ Dashboard Overview
-
-![Dashboard Overview](screenshots/dashboard-overview.png)
-
-Key insights:
-- Monthly sales trends
-- Product category contributions
-- Regional breakdown with map view
-- Dynamic filtering (category, region, time)
+This Power BI project analyzes sales performance across product categories and regional groupings.  
+It leverages dynamic filtering, hierarchical drilldowns, and geospatial visualizations to extract actionable business insights.
 
 ---
 
-## 👥 Customer Behavior Analysis
+## 📊 Dataset Overview
 
-![Customer Behavior](screenshots/customer-analysis.png)
+The dataset includes sales-related attributes such as:
+- Product category, sub-category, and name
+- Regional data: Region, Province
+- Financial metrics: Sales, Profit, Discount, Shipping Cost
+- Date & Customer-related fields
 
-Highlights:
-- Sales distribution across customer segments
-- Trends based on region and product type
-- Visual storytelling through geospatial charts
+📌 It also includes pre-built hierarchies and grouped regional logic.
 
----
-
-## 📁 Files
-
-- `ergasia2_ok.pbix`: Final Power BI dashboard
-- `ergasia2_final.pbix`, `ergasia2.pbix`, `bi_10_2_24.pbix`: intermediate versions
-- `screenshots/`: sample dashboard views
+![Dataset View](screenshots/dataset-view.png)
 
 ---
 
-## 📝 Notes
+## 📦 Sales & Profit by Product Category
 
-> Created as part of academic coursework on data analytics.  
-> Focused on Power BI interactive reporting and storytelling.
+This bar chart compares the total Sales and Profit across main product categories:  
+- **Technology**, **Furniture**, and **Office Supplies**.
+
+![Sales and Profit by Category](screenshots/sales-profit-category.png)
+
+---
+
+## 🌍 Sales by Region with Shipping Cost Coloring
+
+This stacked bar chart shows Sales grouped by Region, with **color intensity** representing **Shipping Cost**.
+
+![Sales by Region](screenshots/sales-region.png)
+
+---
+
+## 🚚 Shipping Cost by Region
+
+Separate breakdown of total **Shipping Cost** across regions for cost optimization analysis.
+
+![Shipping Cost by Region](screenshots/shipping-cost-region.png)
+
+---
+
+## 🗺️ Geospatial Visualization
+
+A map visual illustrating both **Sales** and **Profit** at the **Province** level, providing regional performance insights.
+
+![Geospatial Map](screenshots/geospatial-map.png)
 
 ---
 
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
+
+---
+
+> 💡 Designed as part of a Power BI portfolio for showcasing business-driven data visualization and analysis skills.
