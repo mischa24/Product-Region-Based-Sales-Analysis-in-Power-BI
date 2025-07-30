@@ -53,3 +53,10 @@ A filled map displays **Sum of Sales** and **Profit** by **Province** using geol
 ## 📁 Folder Structure
 
 
+---
+
+## 📌 Notes
+
+- This project was part of a university assignment (ΕΑΠ).
+- Focused on **regional segmentation**, **hierarchical logic**, and **KPI visualization**.
+
